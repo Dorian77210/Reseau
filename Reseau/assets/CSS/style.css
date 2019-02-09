@@ -1,0 +1,116 @@
+/*Menu de navigation*/
+.active{
+
+	color: orange;
+}
+.menu-mobile{
+
+	color: white;
+	width: 100%;
+	cursor: pointer;
+	transition: 0.7s;
+}
+
+nav{
+
+	padding: 1% 0;
+	z-index: 1;
+	position: fixed;
+	display: inline-block;
+	text-align: center;
+	top: 0%;
+	width: 100%;
+	background: #0F0F0A;
+	opacity: 0.8;
+}
+nav > ul{
+	display: none;
+	margin: 0;
+	text-align: center;
+	padding: 0;
+}
+nav li{
+	list-style: none;
+	display: inline-block;
+}
+nav ul li{
+	width: auto;
+	color: white;
+	position: relative;
+}
+nav a{
+	padding: 5%;
+	display: inline-block;
+	text-decoration: none;
+	transition: 0.5s;
+	width: 110%;
+}
+nav  ul  li  a{
+	font-family: Optima, sans-serif;
+	color: white;
+}
+
+.user li{
+
+	padding-right: 2%;
+	padding-left: 2%;
+}
+
+#droite{
+
+	padding-left: 30%;
+}
+
+#droite li{
+
+	padding-left: 0.5%;
+	padding-right: 0.5%;
+}
+
+
+span{
+
+	color: #c65146;
+}
+article{
+
+	margin-top: 7%;
+}
+
+footer{
+
+	background: #0F0F0A;
+
+}
+
+#under_footer{
+
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	justify-content: space-around;
+}
+#under_footer h6{
+
+	color: white;
+	text-align: center;
+}
+
+#under_footer a{
+
+	transition: 0.5s;
+}
+
+#under_footer a:focus,
+#under_footer a:hover{
+
+	color: orange;
+}
+
+@media (max-width: 900px){
+
+	nav ul li{
+		display: block;
+	}
+}
